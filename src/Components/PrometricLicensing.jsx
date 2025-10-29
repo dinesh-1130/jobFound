@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect, useRef } from "react";
 import {
   CheckCircle,
@@ -355,7 +353,7 @@ const PrometricLicensing = React.forwardRef((props, ref) => {
         </div>
 
         {/* CTA Section */}
-        <div
+        {/* <div
           className="text-center mb-16 sm:mb-20 transition-all duration-1000 ease-out px-4"
           data-aos="fade-up"
           data-aos-delay="900"
@@ -427,7 +425,7 @@ const PrometricLicensing = React.forwardRef((props, ref) => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

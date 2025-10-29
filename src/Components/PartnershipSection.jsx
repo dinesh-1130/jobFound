@@ -490,7 +490,7 @@ const PartnershipSection = () => {
         </div>
 
         {/* Focus Section */}
-        <div className="mb-10 sm:mb-12 md:mb-16 lg:mb-24 px-4 sm:px-0">
+        {/* <div className="mb-10 sm:mb-12 md:mb-16 lg:mb-24 px-4 sm:px-0">
           <div
             className="rounded-xl sm:rounded-2xl lg:rounded-3xl shadow-2xl p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16 text-white relative overflow-hidden"
             style={{
@@ -541,7 +541,7 @@ const PartnershipSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* CTA Section */}
         {/* <div 

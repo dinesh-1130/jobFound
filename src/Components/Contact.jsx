@@ -213,7 +213,7 @@ const ContactUs = () => {
                 <iframe
                   // Note: To display a correct map, the src URL here should be updated
                   // to point to the new address.
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.8837363698786!2d80.19456!3d13.09297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52637a4c4c4c4d%3A0x7e3f3c3c3c3c3c3c!2sNo%20524%20CTH%20Road%20Pattabiram%20Chennai!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.291771128362!2d80.1770267750893!3d13.080516187216694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263625317415b%3A0x2897c4cc9735d461!2sNo.583%2C%20School%20Road%2C%20Anna%20Nagar%20West%20Extension%2C%20Chennai%20-%20600101!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

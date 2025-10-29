@@ -530,12 +530,10 @@ const CoreServices = () => {
             <button
               onClick={handlePrev}
               disabled={isAnimating}
-              className={`absolute left-0 sm:left-2 top-1/2 -translate-y-1/2 z-20 bg-white shadow-lg rounded-full p-1.5 sm:p-2 hover:bg-gray-50 transition-all ${
-                isAnimating ? "opacity-50 cursor-not-allowed" : ""
-              }`}
+              className={`absolute left-0 sm:left-2 top-1/2 -translate-y-1/2 z-20 bg-white...`} // ALWAYS PRESENT
               aria-label="Previous service"
-              data-aos="zoom-in" // AOS added
-              data-aos-delay="350" // AOS added
+              data-aos="zoom-in"
+              data-aos-delay="350"
             >
               <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />
             </button>
@@ -543,12 +541,10 @@ const CoreServices = () => {
             <button
               onClick={handleNext}
               disabled={isAnimating}
-              className={`absolute right-0 sm:right-2 top-1/2 -translate-y-1/2 z-20 bg-white shadow-lg rounded-full p-1.5 sm:p-2 hover:bg-gray-50 transition-all ${
-                isAnimating ? "opacity-50 cursor-not-allowed" : ""
-              }`}
+              className={`absolute right-0 sm:right-2 top-1/2 -translate-y-1/2 z-20 bg-white...`} // ALWAYS PRESENT
               aria-label="Next service"
-              data-aos="zoom-in" // AOS added
-              data-aos-delay="400" // AOS added
+              data-aos="zoom-in"
+              data-aos-delay="400"
             >
               <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />
             </button>

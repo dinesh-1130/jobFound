@@ -14,7 +14,7 @@ const ValueItem = ({ icon: Icon, title, delay }) => {
       <div className="w-10 h-10 bg-gradient-to-br from-[#1e3a8a] to-[#E63946] rounded-full flex items-center justify-center flex-shrink-0">
         <Icon className="w-5 h-5 text-white" />
       </div>
-      <span className="text-gray-800 font-semibold">{title}</span>
+      {/* <span className="text-gray-800 font-semibold">{title}</span> */}
     </div>
   );
 };
@@ -36,19 +36,9 @@ export default function AboutUs() {
     <section className="py-20 bg-white" id="about-us">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div
-          className="text-center mb-16"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#0a1436] mb-4">
-            About <span className="text-[#E63946]">JobFount</span>
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#1e3a8a] to-[#E63946] mx-auto rounded-full"></div>
-        </div>
 
         {/* Vision & Mission */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        {/* <div className="grid md:grid-cols-2 gap-8 mb-16">
           <div
             className="bg-[#0a1436] p-8 rounded-2xl shadow-lg text-white h-full border-4 border-[#1e3a8a]"
             data-aos="fade-right"
@@ -82,10 +72,10 @@ export default function AboutUs() {
               complexity, and relationships over transactions.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Values */}
-        <div
+        {/* <div
           className="mb-16"
           data-aos="fade-up"
           data-aos-delay="600"
@@ -104,10 +94,10 @@ export default function AboutUs() {
               />
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Promise */}
-        {/* <div
+        <div
           className="bg-white border-4 border-[#1e3a8a] rounded-2xl p-8 sm:p-12 shadow-lg"
           data-aos="zoom-in-up"
           data-aos-delay="1000"
@@ -130,7 +120,7 @@ export default function AboutUs() {
               <span className="font-bold text-[#1e3a8a]">trustworthy</span>.
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );

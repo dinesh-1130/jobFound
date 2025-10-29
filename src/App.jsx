@@ -12,7 +12,7 @@ import FindJobsPage from "./Components/FindJobs.jsx";
 import ContactUs from "./Components/Contact.jsx";
 import "./App.css";
 import About from "./Components/About.jsx";
-
+import Promise from "./Components/Promise.jsx";
 function HomePage() {
   const prometricLicensingRef = useRef(null);
   const location = useLocation();
@@ -62,10 +62,11 @@ function HomePage() {
   return (
     <div>
       <JobfountHero prometricLicensingRef={prometricLicensingRef} />
+      <About />
       <CoreServices />
       <PrometricLicensing ref={prometricLicensingRef} />
       <PartnershipSection />
-      <About />
+      <Promise />
       <ContactUs />
       <JobfountFooter />
     </div>

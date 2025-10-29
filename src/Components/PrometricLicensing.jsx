@@ -267,10 +267,10 @@ const PrometricLicensing = React.forwardRef((props, ref) => {
                 data-aos="fade-up"
                 data-aos-delay="850"
               >
-                Jobfount LLP is not affiliated with Prometric Inc. or any
-                licensing authority. All exams are conducted at official
-                Prometric centers. Jobfount provides administrative and support
-                services only.
+                Jobfount is not affiliated with Prometric Inc. or any licensing
+                authority. All exams are conducted at official Prometric
+                centers. Jobfount provides administrative and support services
+                only.
               </p>
             </div>
           </div>

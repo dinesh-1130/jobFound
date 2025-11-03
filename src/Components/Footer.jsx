@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import JobfountLogo from "../assets/Jobfount.jpg";
+import JobfountLogo from "../assets/Jobfount.jpeg";
 
 const JobfountFooter = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
